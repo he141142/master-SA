@@ -8,5 +8,3 @@ In each case, the load balancer returns the response from the computing resource
 the appropriate client
 
 
-. Load balancers are effective at:
-

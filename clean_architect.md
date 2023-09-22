@@ -60,6 +60,14 @@ should be open for extension but closed for modification.
   Usually achieved through the use of abstractions (interfaces or abstract classes) and polymorphism<br> <br>
 **Benefit**: can add new features to a system without risking introducing bugs or breaking existing functionality.
 
+
+### Pattern support:
+- The Strategy Pattern: The Strategy Pattern defines a family of algorithms, 
+encapsulates each one, and makes them interchangeable.
+It allows you to add new strategies without modifying the context, adhering to the OCP.
+
+- The Decorator Pattern: As explained earlier, the Decorator Pattern allows you to add functionality to objects dynamically at runtime without modifying their structure. 
+This supports the OCP by extending behavior without changing existing code.
 ## L - Liskov Substitution Principle (LSP):
 States that objects of a superclass should be replaceable with objects of a 
 subclass without affecting the correctness of the program.
@@ -96,3 +104,26 @@ Use Composition: Instead of using inheritance, consider using composition to sha
 
 Remember, adhering to the Liskov Substitution Principle ensures that your code is more maintainable, and objects can be substituted seamlessly, leading to a more robust and flexible design.
 ```
+### Pattern support:
+The Factory Method Pattern: 
+The Factory Method Pattern provides an interface for creating objects,
+but subclasses decide which class to instantiate. This supports the LSP by allowing subclasses to replace the base class during object creation.
+## I - Interface Segregation Principle (ISP):
+Suggests that a class should not be forced to implement interfaces it doesn't use. 
+Instead of having large interfaces with many methods, 
+it is better to create smaller and more specific interfaces
+to the needs of individual classes. 
+=> This promotes decoupling and prevents 
+classes from being burdened with unnecessary dependencies.
+
+## Dependency Inversion Principle (DIP):
+The Dependency Injection Pattern: 
+This pattern helps implement the DIP by allowing you to
+inject dependencies into a class rather 
+than having the class create its dependencies. 
+This promotes loose coupling and makes classes more flexible and reusable.
+The Observer Pattern: The Observer Pattern allows objects to subscribe to
+changes in other objects (subject) without being tightly coupled. 
+This promotes the DIP by allowing objects to depend on abstractions (the subject) 
+rather than concrete implementations.
+

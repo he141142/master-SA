@@ -1,5 +1,3 @@
-
-
 # Introduce yourself and Golang as your experience
 
 I am a dedicated and passionate Golang backend developer 
@@ -22,7 +20,7 @@ robust and maintainable codebases.
 
 
 
-As a Golang backend developer, 
+As a Golang backend developer,
 I am excited to continue pushing the boundaries of what this powerful language can achieve. 
 I am eager to contribute my skills and experience
 to projects that make a positive impact and look forward to exploring new opportunities to grow.
